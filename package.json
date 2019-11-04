@@ -5,7 +5,7 @@
   "description": "electron-updater example project",
   "author": "Matt Haggard",
   "scripts": {
-    "publish": "build -p always"
+    "publish": "build --win always"
   },
   "devDependencies": {
     "electron": "^3.0.2",
@@ -16,13 +16,18 @@
     "electron-updater": "^4.0.6"
   },
   "build": {
-    "appId": "com.github.iffy.electronupdaterexample",
+    "appId": "com.github.mobile247.electronupdaterexample",
     "mac": {
       "category": "your.app.category.type",
       "target": [
         "zip",
         "dmg"
       ]
-    }
+    },
+    "publish": [{
+      "provider": "github",
+      "owner": "mobile427",
+      "repo": "electron-updater-example"
+    }]
   }
 }
