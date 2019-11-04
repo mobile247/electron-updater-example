@@ -27,7 +27,7 @@
     "publish": [
       {
         "provider": "github",
-        "owner": "mobile427",
+        "owner": "mobile247",
         "repo": "electron-updater-example"
       }
     ]
