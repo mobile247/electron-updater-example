@@ -1,11 +1,11 @@
 {
   "name": "electron-updater-example",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": "Matt Haggard",
   "scripts": {
-    "publish": "build --win always"
+    "publish": "build --win"
   },
   "devDependencies": {
     "electron": "^3.0.2",
@@ -24,10 +24,12 @@
         "dmg"
       ]
     },
-    "publish": [{
-      "provider": "github",
-      "owner": "mobile427",
-      "repo": "electron-updater-example"
-    }]
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "mobile427",
+        "repo": "electron-updater-example"
+      }
+    ]
   }
 }
