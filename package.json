@@ -24,6 +24,15 @@
         "dmg"
       ]
     },
+    "win": {
+      "publish": [
+        {
+          "provider": "github",
+          "owner": "mobile247",
+          "repo": "electron-updater-example"
+        }
+      ]
+      },
     "publish": [
       {
         "provider": "github",
